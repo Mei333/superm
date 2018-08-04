@@ -11,5 +11,6 @@ namespace Vic.SuperS.Data.Model
         public int Id { get; set; }
         public List<ShoppingItem> ShoppingItems { get; set; } = new List<ShoppingItem>();
         public DateTimeOffset Created { get; set; } = DateTimeOffset.Now;
+        //mei-test-kkk
     }
 }
